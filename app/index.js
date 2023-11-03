@@ -22,6 +22,17 @@ const Home = () => {
                     headerTitle: ""
                 }}
             />
+
+            <ScrollView showsVerticalScrollIndicator={false}>
+                <View
+                    style={{
+                        flex: 1,
+                        padding: SIZES.medium,
+                    }}
+                >
+                    
+                </View>
+            </ScrollView>
         </SafeAreaView>
     )
 }
